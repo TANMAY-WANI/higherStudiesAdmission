@@ -1,0 +1,73 @@
+body{
+    background-color:#F2EBE9;
+}
+hr{
+    border-style: none;
+    height: 5px;
+    width: 5%;
+    border-top:dotted 4px black;
+
+}
+.mainHeading{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 55px;
+    text-align: center;
+    color: #4C3A51;
+}
+h3{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+    color: #4C3A51;
+}
+.exName{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4C3A51;
+}
+.div1{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.subHeading1{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4C3A51;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+a:visited { 
+   text-decoration: none;
+   color: black;
+
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+   
+}
+.centre{
+    margin-left: auto;
+    margin-right: auto;
+}
+.div2{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.subDIV{
+    align-items: center;
+}
