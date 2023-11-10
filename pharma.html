@@ -1,82 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pharmacy</title>
     <link rel="shortcut icon" href="Images/favicon-96x96.png" type="image/x-icon">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="template.css">
 
 </head>
+
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="enggEx.html">Engineering</a></li>
+            <li><a href="pharma.html">Pharmacy</a></li>
+            <li><a href="mbbs.html">MBBS</a></li>
+        </ul>
+    </nav>
     <h2 class="mainHeading">Welcome to Pharmacy Stream!!</h2>
+    <hr>
     <h3>Exams Required</h3>
     <hr>
-    <h3>Gujarat Common Entrance Test (GUJCET)</h3>
-    <hr>
-    <div class="div1">
-        <p class="subHeading1">Documents Requried </p>
-        <p>Marksheet of class 10 and 12</p>
-        <p>Scanned Photgraph (100 kb)</p>
-        <p>Scanned Signature(20kb)</p>
-        <p>Bonafide Certificate</p>
-        <p>School Leaving Certificate</p>
-        <p>Domicile Certificate</p>
-        <p>Migration Certificate</p>
-        Category certificate (if any)
+    <div style="display: grid;grid-template-columns: 1fr 1fr; margin-bottom: 6.48%;">
+        <div style="text-align: center; margin-top: 10%;"><input class="btn gpat" type="button" value="NEET"></div>
+        <div style="text-align: center; margin-top: 10%;"><input class="btn gujcet" type="button" value="GUJCET"></div>
     </div>
-    <hr>
-    <div class="div1">
-        <p class="subHeading1">Qualification Criteria</p>
-        <p>The Candidtate must have passed cclass 12th or equivalent in physics, chemistry and biology as compulsory subjects</p>
-        <p>Candidtate must score at least 45% in class 12th or equivalent</p>
-    </div>
-    <hr>
-    <div class="div1">
-        <p class="subHeading1">Eligibility</p>
-        <p>Candidates who have studied in gujarat or who have a domicile certificate of gujarat are eligible to write gujcet</p>
-        <p>Candidates who have studied class 12th from schools located in Dadra and Nagar Haveli amd Daman and Diu are also eligible, if the parents are of gujarat origin</p>
+
+
+    <div id="gpatInfoModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close gpat_close">&times;</span>
+
+            <div class="mains">
+                <h3>GPAT</h3>
+                <ul>
+                    <li><strong>Necessary Items During the Examination:</strong> Ensure you have your Admit Card, a
+                        valid photo ID, essential stationery items, and a recent passport-sized photograph for the GPAT
+                        exam.</li>
+
+                    <li><strong>Eligibility Criteria:</strong> GPAT is open to graduates in Pharmacy or those in the
+                        final year of their course. Ensure you meet the specific educational qualifications before
+                        applying.</li>
+
+                    <li><strong>Top Colleges Through GPAT:</strong> Some of the top institutions accepting GPAT scores
+                        include NIPER Mohali, Jamia Hamdard, and Manipal College of Pharmaceutical Sciences. These
+                        colleges offer excellent programs in the field of pharmacy.</li>
+
+                    <li><strong>Items Prohibited During the Exam:</strong> Be aware that electronic devices, study
+                        materials, bags, and any unauthorized items are strictly prohibited during the GPAT examination.
+                        Adhering to these guidelines ensures a fair and secure testing environment.</li>
+                </ul>
+            </div>
+        </div>
 
     </div>
-    <hr>
-    <div class="div1">
-        <p class="subHeading1">Paper Pattern</p>
-        <div class="subDIV">
-            <img src="Images/gujcetPaperPatternBIO.png" alt="GujCET paper pattern">
+
+    <div id="gujcetInfoModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close gujcet_close">&times;</span>
+
+            <div class="mains">
+                <h3>GUJCET</h3>
+                <ul>
+                    <li><strong>Necessary Items During the Examination:</strong> Essential items for GUJCET include the
+                        Admit Card, a valid photo ID, writing materials, and a recent passport-sized photograph for
+                        Pharmacy aspirants.</li>
+
+                    <li><strong>Eligibility Criteria for Pharmacy:</strong> GUJCET is open to Indian nationals who have
+                        completed their 10+2 education with specific subjects, and Pharmacy aspirants must ensure they
+                        meet the eligibility criteria for the Pharmacy program.</li>
+
+                    <li><strong>Top Pharmacy Colleges Through GUJCET:</strong> GUJCET scores are crucial for admissions
+                        to various pharmacy colleges in Gujarat. Some prominent institutions include the L. M. College
+                        of Pharmacy and Nirma University's Institute of Pharmacy.</li>
+
+                    <li><strong>Items Prohibited During the Pharmacy Exam:</strong> GUJCET strictly prohibits certain
+                        items during the Pharmacy exam, including electronic devices, study materials, bags, and any
+                        unauthorized items. Adhering to these guidelines ensures a fair and secure testing environment
+                        for Pharmacy aspirants.</li>
+                </ul>
+            </div>
         </div>
+
     </div>
-    <hr>
-    <div class="div1">
-        <p class="subHeading1">Marking Scheme</p>
-        <div>
-            <table border="2" class="centre">
-                <tr>
-                    <th>Particulars</th>
-                    <th>Details</th>
-                </tr>
-                <tr>
-                    <td>Marking Scheme</td>
-                    <td>1 Mark for every correct answer</td>
-                </tr>
-                <tr>
-                    <td>Negative Marking</td>
-                    <td>0.25 Marks will be deducted fro every wrong answer</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <hr>
-    <div class="div1">
-        <p class="subHeading1">Colleges covered in gujarat</p>
-        <p><a href="https://www.msubaroda.ac.in/academics/FOP">MSU Baroda</a></p>
-        <p><a href="https://www.lmcp.ac.in/">LM College Ahmedabad</a></p>
-        <p><a href="https://www.sal.edu.in/institutes/sal-institute-of-pharmacy/">SAL Institute of pharmacy</a></p>
-        <p><a href="https://pharmacy.nirmauni.ac.in/">Nirma University</a></p>
-        <p><a href="https://bitspharmacy.org/">Babaria Institute of Pharmacy</a></p>
-    </div>
+    <footer>
+        <p>&copy; 2023 NGO Educational Website. All rights reserved.</p>
+    </footer>
+    <script src="pharma.js"></script>
 </body>
+
 </html>
